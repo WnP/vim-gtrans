@@ -1,8 +1,8 @@
-# vim-Gtrans
+# vim-gtrans
 
 ## Introduction
 
-vim-Gtrans is a vim plugin which allow you to translate words or sentences by using Google Translate.
+vim-gtrans is a vim plugin which allow you to translate words or sentences by using Google Translate.
 
 ## Requirements
 
@@ -13,8 +13,8 @@ vim-Gtrans is a vim plugin which allow you to translate words or sentences by us
 
 Gtrans define 2 variables which can be redefine, default values are:
 
-  let g:gtrans_input_language = 'en'
-  let g:gtrans_output_language = 'fr'
+    let g:gtrans_input_language = 'en'
+    let g:gtrans_output_language = 'fr'
 
 ## Usage
 

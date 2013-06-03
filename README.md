@@ -20,4 +20,4 @@ gtrans define 2 variables which can be redefine, defaults values are:
 
 **Cursor Mode**: simply run `:Gtrans` command will return the translation for the word under the cursor
 
-**Visual Mode**: select an area, run `:'<,>':call Gtrans()` command return the translation for the given area
+**Visual Mode**: select an area, run `:'<,'>:call Gtrans()` command return the translation for the given area

@@ -11,16 +11,13 @@ vim-gtrans is a vim plugin which allow you to translate words or sentences by us
 
 ## Variables
 
-Gtrans define 2 variables which can be redefine, default values are:
+gtrans define 2 variables which can be redefine, defaults values are:
 
     let g:gtrans_input_language = 'en'
     let g:gtrans_output_language = 'fr'
 
 ## Usage
 
-**Cursor Mode**: simply run :Gtrans will return the translation for the word under the cursor
+**Cursor Mode**: simply run `:Gtrans` command will return the translation for the word under the cursor
 
-**Visual Mode**: select an area, run :Gtrans return the translation for the given area
-
-
-Enjoy (^_^)
+**Visual Mode**: select an area, run `:Gtrans` command return the translation for the given area

@@ -19,6 +19,7 @@ Gtrans define 2 variables which can be redefine, default values are:
 ## Usage
 
 **Cursor Mode**: simply run :Gtrans will return the translation for the word under the cursor
+
 **Visual Mode**: select an area, run :Gtrans return the translation for the given area
 
 

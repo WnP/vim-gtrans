@@ -1,0 +1,7 @@
+:Gtrans trig the translator, for the word under the cursor 
+or for the highlighted area
+
+you could redefine those variables:
+
+- g:gtrans_input_language = 'en'
+- g:gtrans_output_language = 'fr'

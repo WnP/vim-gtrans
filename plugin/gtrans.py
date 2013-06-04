@@ -68,7 +68,7 @@ def vim_gtranslate():
 
     translated = ''
     try:
-        translated = trans.translate(res)
+        translated = trans.translate(res if res else '')
     except urllib2.HTTPError:
         pass
     print translated.encode(encoding)

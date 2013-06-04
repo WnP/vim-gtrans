@@ -1,3 +1,12 @@
+######################################################################
+#                                                                    #
+#            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE             #
+#   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION  #
+#                                                                    #
+#  0. You just DO WHAT THE FUCK YOU WANT TO.                         #
+#                                                                    #
+######################################################################
+
 import vim
 import translate
 import urllib2
@@ -59,7 +68,7 @@ def vim_gtranslate():
     res = ''
 
     if buff.mark('<') and buff.mark('>') and cursor[1] == 0 \
-       and buff.mark('<')[0] <= cursor[0] <= buff.mark('>')[0]:
+            and buff.mark('<')[0] <= cursor[0] <= buff.mark('>')[0]:
         # visual mode
         res = __do_visual(buff, cur)
     else:

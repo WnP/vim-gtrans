@@ -1,7 +1,64 @@
-:Gtrans trig the translator, for the word under the cursor 
-or for the highlighted area
+gtrans.txt          for Vim version 7.3 +python         Last change: 2013 June 6
 
-you could redefine those variables:
+================================================================================
+CONTENTS                                                        *gtrans-contents*
 
-- g:gtrans_input_language = 'en'
-- g:gtrans_output_language = 'fr'
+1. Introduction                         |gtrans-intro|
+2. Options                              |gtrans-options|
+3. Commands                             |gtrans-commands|
+4. Authors                              |gtrans-authors|
+5. History                              |gtrans-history|
+
+================================================================================
+INTRODUCTION                                                    *gtrans-intro*
+
+vim-gtrans is a vim plugin which allow you to translate words or sentences
+by using Google Translate.
+
+================================================================================
+OPTIONS                                                         *gtrans-options*
+
+g:gtrans_input_language ~
+
+        description:                set input language
+        values:                     string -will be iso639-1 language codes-
+        default:                    "en"
+
+g:gtrans_output_language ~
+
+        description:                set output language
+        values:                     string -will be iso639-1 language codes-
+        default:                    "fr"
+
+================================================================================
+COMMANDS                                                        *gtrans-commands*
+
+:Gtrans ~
+
+        description:        translate the current word under the cursor
+
+:call Gtrans() ~
+
+        description:        translate all highlighted words or sentences,
+                        in visual mode, so it looks like:
+<
+                            :'<,'>,:call Gtrans()
+>
+
+================================================================================
+AUTHORS                                                         *gtrans-authors*
+
+Gtrans is written ans maintained by Steeve Chailloux.
+Other(s) contributor(s) that have submitted patches include:
+
+    Natal Ngétal (Hobbestigrou)
+
+================================================================================
+HISTORY                                                         *gtrans-history*
+
+0.1 ( 2013 june 4 )
+
+    initial release
+
+--------------------------------------------------------------------------------
+vim:tw=78:ft=help:

@@ -48,7 +48,7 @@ COMMANDS                                                        *gtrans-commands
 ================================================================================
 AUTHORS                                                         *gtrans-authors*
 
-Gtrans is written ans maintained by Steeve Chailloux.
+Gtrans is written and maintained by Steeve Chailloux.
 Other(s) contributor(s) that have submitted patches include:
 
     Natal Ngétal (Hobbestigrou)
@@ -56,7 +56,7 @@ Other(s) contributor(s) that have submitted patches include:
 ================================================================================
 HISTORY                                                         *gtrans-history*
 
-0.1 ( 2013 june 4 )
+0.1 ( 2013 june 6 )
 
     initial release
 
